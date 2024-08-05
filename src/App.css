@@ -1,0 +1,14 @@
+.img{
+    float: left;
+    
+    object-fit: cover;
+}
+
+.img-tf{
+    transform:scale(1, 1);
+    transition: 1s;
+
+    &:hover {
+        transform:scale(1.2, 1.4);
+    }
+} 
